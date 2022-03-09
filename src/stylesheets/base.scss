@@ -333,6 +333,21 @@ body {
               color: $grey-text;
               font-weight: 100;
               font-size: 14px;
+
+              p {
+                border-top: 0;
+                border-bottom: 0;
+              }
+            }
+
+            ul {
+              list-style-position: inside;
+
+              li {
+                padding-top: 0.5em;
+                padding-left: 0.5em;
+                list-style-type: disc;
+              }
             }
 
             transition: max-height 0.2s ease;
